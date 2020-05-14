@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awax</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="Awax Logo">
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Sobre nós</a></li>
+                        <li><a href="#">Serviços</a></li>
+                        <li><a href="#">Produtos</a></li>
+                        <li><a href="#">Nosso time</a></li>
+                        <li><a href="#">Clientes</a></li>
+                        <li><a href="#">Preços</a></li>
+                        <li><a href="#">Recursos</a></li>
+                        <li><a href="#">Contato</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="sliders">
+                <div class="slide">
+                    <div class="slideArea">
+                        <h1>Sobre a empresa <br /> <span>Comunicação</span></h1>
+                        <h2>Entre em contato: (88) 99988-7766</h2>
+                        <a href="#">Entre em contato</a>
+                    </div>
+                </div>
+                <!-- <div class="slide">
+                    ...2
+                </div>
+                <div class="slide">
+                    ...3
+                </div> -->
+            </div>
+            <!-- <div class="sliders-pointers">
+                <div class="pointer active"></div>
+                <div class="pointer"></div>
+                <div class="pointer"></div>
+            </div> -->
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+<script>
+    const pointer = document.querySelectorAll(".pointer")
+
+    pointer.forEach(function (item, i) {
+        pointer[i].addEventListener("click", function (numero) {
+            console.log(numero)
+        })
+    })
+
+    function passaSlide(i) {
+        console.log(i)
+    }
+</script>
+
+</html>
