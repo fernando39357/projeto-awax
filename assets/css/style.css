@@ -8,6 +8,7 @@
 body{
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-size: 13px;
+    overflow-x: hidden;
 }
 header {
     height: 100px;
@@ -132,4 +133,40 @@ header {
 }
 .banner .pointer.active{
     background-color: #b28756;
+}
+.default {
+    padding: 50px 0px;
+}
+.default.light{
+    background-color: #f7f7f7;
+}
+.default.dark{
+    background-color: #000;
+}
+.default.light .sectionTitle{
+    color: black;
+}
+.default.dark .sectionTitle{
+    color: white;
+}
+.default .sectionTitle,
+.default .sectionDesc
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.default .sectionTitle{
+    font-size: 20px;
+}
+.default .sectionDesc{
+    font-size: 12px;
+    margin-top: 10px;
+    color: #CCC;
+    margin-bottom: 40px;
+}
+.default .sectionBody{
+    max-width: 1140px;
+    margin: auto;
+    background-color: #CCC;
 }
