@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=.0">
     <title>Awax</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <div class="header">
+        <div class="header" id="home">
             <div class="logo">
                 <img src="assets/images/logo.png" alt="Awax Logo">
             </div>
@@ -40,14 +40,27 @@
                     <div class="slideArea">
                         <h1>Sobre a empresa <br /> <span>Comunicação</span></h1>
                         <h2>Entre em contato: (88) 99988-7766</h2>
-                        <a href="#">Entre em contato</a>
+
+                        <a class="button" href="#">Entre em contato</a>
                     </div>
                 </div>
                 <!-- <div class="slide">
-                    ...2
+                    <div class="sectionProjectsPhotoItem">
+                                <div class="sectionPhotoInfo">
+                                    <h5>Sobre nós</h5>
+                                    <p>exercitation ullamco laboris</p>
+                                </div>
+                                <img src="media/foto1.jpg" alt="">
+                            </div>2
                 </div>
                 <div class="slide">
-                    ...3
+                    <div class="sectionProjectsPhotoItem">
+                                <div class="sectionPhotoInfo">
+                                    <h5>Sobre nós</h5>
+                                    <p>exercitation ullamco laboris</p>
+                                </div>
+                                <img src="media/foto1.jpg" alt="">
+                            </div>3
                 </div> -->
             </div>
             <!-- <div class="sliders-pointers">
@@ -56,19 +69,291 @@
                 <div class="pointer"></div>
             </div> -->
         </section>
-        <section class="default light">
+        <section class="default light" id="sobre">
             <div class="sectionTitle">
                 Sobre nós
             </div>
             <div class="sectionDesc">Quem nós somos?</div>
-            <div class="sectionBody">...</div>
+            <div class="sectionBody">
+                <div class="section-sobrenos">
+                    <div class="section-sobrenos--left">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <a class="button" href="#">Leia mais</a>
+                    </div>
+                    <div class="section-sobrenos--right">
+                        <div class="playvideo">ASSISTIR</div>
+                        <img src="media/foto4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="default dark">
             <div class="sectionTitle">
-                Sobre nós
+                Serviços
             </div>
-            <div class="sectionDesc">Conheça a empresa</div>
-            <div class="sectionBody">...</div>
+            <div class="sectionDesc">O que podemos fazer por você</div>
+            <div class="sectionBody">
+                <div class="sectionServices">
+                    <div class="sectionService">
+                        <img src="assets/images/medalha.png" alt="">
+                        <h4>Design de qualidade</h4>
+                        <p>exercitation ullamco laboris</p>
+                    </div>
+                    <div class="sectionService">
+                        <img src="assets/images/estrela.png" alt="">
+                        <h4>Design moderno</h4>
+                        <p>exercitation ullamco laboris</p>
+                    </div>
+                    <div class="sectionService">
+                        <img src="assets/images/relogio.png" alt="">
+                        <h4>Atualizações</h4>
+                        <p>exercitation ullamco laboris</p>
+                    </div>
+                    <div class="sectionService">
+                        <img src="assets/images/balao.png" alt="">
+                        <h4>Suporte rápido</h4>
+                        <p>exercitation ullamco laboris</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="default light">
+            <div class="sectionTitle">
+                Projetos
+            </div>
+            <div class="sectionDesc">Alguns dos nossos trabalhos</div>
+            <div class="sectionBody">
+                <div class="sectionProjects">
+                    <div class="sectionProjectsFilters">
+                        <ul>
+                            <li>Todos</li>
+                            <li class="active">Filtro 1</li>
+                            <li>Filtro 2</li>
+                            <li>Filtro 3</li>
+                            <li>Filtro 4</li>
+                            <li>Filtro 5</li>
+                        </ul>
+                    </div>
+                    <div class="sectionProjectsPhotos">
+                        <div class="sectionProjectsPhoto">
+                            <div class="sectionProjectsPhotoItem">
+                                <div class="sectionPhotoInfo">
+                                    <h5>Sobre nós</h5>
+                                    <p>exercitation ullamco laboris</p>
+                                </div>
+                                <img src="media/foto1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="sectionProjectsPhoto">
+                            <div class="sectionProjectsPhotoItem">
+                                <div class="sectionPhotoInfo">
+                                    <h5>Sobre nós</h5>
+                                    <p>exercitation ullamco laboris</p>
+                                </div>
+                                <img src="media/foto2.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="sectionProjectsPhoto">
+                            <div class="sectionProjectsPhotoItem">
+                                <div class="sectionPhotoInfo">
+                                    <h5>Sobre nós</h5>
+                                    <p>exercitation ullamco laboris</p>
+                                </div>
+                                <img src="media/foto3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="sectionProjectsPhoto">
+                            <div class="sectionProjectsPhotoItem">
+                                <div class="sectionPhotoInfo">
+                                    <h5>Sobre nós</h5>
+                                    <p>exercitation ullamco laboris</p>
+                                </div>
+                                <img src="media/foto4.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="sectionProjectsPhoto">
+                            <div class="sectionProjectsPhotoItem">
+                                <div class="sectionPhotoInfo">
+                                    <h5>Sobre nós</h5>
+                                    <p>exercitation ullamco laboris</p>
+                                </div>
+                                <img src="media/foto5.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="sectionProjectsPhoto">
+                            <div class="sectionProjectsPhotoItem">
+                                <div class="sectionPhotoInfo">
+                                    <h5>Sobre nós</h5>
+                                    <p>exercitation ullamco laboris</p>
+                                </div>
+                                <img src="media/foto6.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="sectionProjectsPhoto">
+                            <div class="sectionProjectsPhotoItem">
+                                <div class="sectionPhotoInfo">
+                                    <h5>Sobre nós</h5>
+                                    <p>exercitation ullamco laboris</p>
+                                </div>
+                                <img src="media/foto7.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="sectionProjectsPhoto">
+                            <div class="sectionProjectsPhotoItem">
+                                <div class="sectionPhotoInfo">
+                                    <h5>Sobre nós</h5>
+                                    <p>exercitation ullamco laboris</p>
+                                </div>
+                                <img src="media/foto8.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="sectionProjectsPhoto">
+                            <div class="sectionProjectsPhotoItem">
+                                <div class="sectionPhotoInfo">
+                                    <h5>Sobre nós</h5>
+                                    <p>exercitation ullamco laboris</p>
+                                </div>
+                                <img src="media/foto9.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="sectionProjectsPhoto">
+                            <div class="sectionProjectsPhotoItem">
+                                <div class="sectionPhotoInfo">
+                                    <h5>Sobre nós</h5>
+                                    <p>exercitation ullamco laboris</p>
+                                </div>
+                                <img src="media/foto1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="sectionProjectsPhoto">
+                            <div class="sectionProjectsPhotoItem">
+                                <div class="sectionPhotoInfo">
+                                    <h5>Sobre nós</h5>
+                                    <p>exercitation ullamco laboris</p>
+                                </div>
+                                <img src="media/foto2.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="sectionProjectsPhoto">
+                            <div class="sectionProjectsPhotoItem">
+                                <div class="sectionPhotoInfo">
+                                    <h5>Sobre nós</h5>
+                                    <p>exercitation ullamco laboris</p>
+                                </div>
+                                <img src="media/foto3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#sobre" class="button">Mais projetos</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="default dark bgTeam">
+            <div class="sectionTeamArea">
+                <div class="sectionTitle">
+                    Nosso time
+                </div>
+                <div class="sectionDesc">Os nossos heróis</div>
+                <div class="sectionBody">
+                    <div class="sectionTeam">
+                        <div class="sliders">
+                            <div class="slide">
+                                <div class="slideArea">
+                                    <img class="sectionTeamAvatar" src="media/mulher1.png" alt="">
+                                    <div class="sectionTeamName">Jane Doe</div>
+                                    <div class="sectionTeamRole">CEO</div>
+                                    <div class="sectionTeamSocial">
+                                        <a href="#" title="Facebook"><img src="assets/images/facebook.png"
+                                                alt="Facebook"></a>
+                                        <a href="#" title="Google+"><img src="assets/images/googleplus.png"
+                                                alt="Google+"></a>
+                                        <a href="#" title="Linkedin"><img src="assets/images/linkedin.png"
+                                                alt="Linkedin"></a>
+                                        <a href="#" title="Pinterest"><img src="assets/images/pinterest.png"
+                                                alt="Pinterest"></a>
+                                        <a href="#" title="Twitter"><img src="assets/images/twitter.png"
+                                                alt="Twitter"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="slide">
+                                <div class="slideArea">
+                                    <img class="sectionTeamAvatar" src="media/homem1.png" alt="">
+                                    <div class="sectionTeamName">Mike Jhow</div>
+                                    <div class="sectionTeamRole">Design</div>
+                                    <div class="sectionTeamSocial">
+                                        <a href="#" title="Facebook"><img src="assets/images/facebook.png"
+                                                alt="Facebook"></a>
+                                        <a href="#" title="Google+"><img src="assets/images/googleplus.png"
+                                                alt="Google+"></a>
+                                        <a href="#" title="Linkedin"><img src="assets/images/linkedin.png"
+                                                alt="Linkedin"></a>
+                                        <a href="#" title="Pinterest"><img src="assets/images/pinterest.png"
+                                                alt="Pinterest"></a>
+                                        <a href="#" title="Twitter"><img src="assets/images/twitter.png"
+                                                alt="Twitter"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="slide">
+                                <div class="slideArea">
+                                    <img class="sectionTeamAvatar" src="media/mulher2.png" alt="">
+                                    <div class="sectionTeamName">Ana</div>
+                                    <div class="sectionTeamRole">Suporte</div>
+                                    <div class="sectionTeamSocial">
+                                        <a href="#" title="Facebook"><img src="assets/images/facebook.png"
+                                                alt="Facebook"></a>
+                                        <a href="#" title="Google+"><img src="assets/images/googleplus.png"
+                                                alt="Google+"></a>
+                                        <a href="#" title="Linkedin"><img src="assets/images/linkedin.png"
+                                                alt="Linkedin"></a>
+                                        <a href="#" title="Pinterest"><img src="assets/images/pinterest.png"
+                                                alt="Pinterest"></a>
+                                        <a href="#" title="Twitter"><img src="assets/images/twitter.png"
+                                                alt="Twitter"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="slide">
+                                <div class="slideArea">
+                                    <img class="sectionTeamAvatar" src="media/mulher2.png" alt="">
+                                    <div class="sectionTeamName">Ana</div>
+                                    <div class="sectionTeamRole">Suporte</div>
+                                    <div class="sectionTeamSocial">
+                                        <a href="#" title="Facebook"><img src="assets/images/facebook.png"
+                                                alt="Facebook"></a>
+                                        <a href="#" title="Google+"><img src="assets/images/googleplus.png"
+                                                alt="Google+"></a>
+                                        <a href="#" title="Linkedin"><img src="assets/images/linkedin.png"
+                                                alt="Linkedin"></a>
+                                        <a href="#" title="Pinterest"><img src="assets/images/pinterest.png"
+                                                alt="Pinterest"></a>
+                                        <a href="#" title="Twitter"><img src="assets/images/twitter.png"
+                                                alt="Twitter"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="sliders-pointers">
+                            <div class="pointer active"></div>
+                            <div class="pointer"></div>
+                            <div class="pointer"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
         </section>
     </main>
     <footer>
