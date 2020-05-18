@@ -77,6 +77,9 @@ header {
     margin-top: 30px;
     border-radius: 20px;
 }
+.button:hover{
+    background-color: #000;
+}
 .banner{
     height: calc(100vh - 100px);
     background-color: #333;
@@ -141,13 +144,14 @@ header {
 }
 .default {
     padding: 50px 0px;
-
+    border-bottom: 1px solid #eee;
 }
 .default.light{
     background-color: #f7f7f7;
 }
 .default.light.bgWhite{
     background-color: #FFF;
+    
 }
 .default.dark{
     background-color: #000;
@@ -488,11 +492,11 @@ header {
     font-size: 18px;
     text-transform: capitalize;
     margin-top: 20px;
-    margin-bottom: 5px;
+    
 }
 .sectionClientsRole{
     margin-bottom: 10px;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 400;
 }
 .sectionClientsQuote{
@@ -577,4 +581,130 @@ header {
     background-color: #b28756;
     transform: scale(1.1);
 }
+.sectionPremium{
+    overflow: hidden;
+    max-width: 880px;
+    margin: -20px auto;
+}
+.sectionPremium .sliders {
+    width: 1000vw;
+    height: 100%;
+}
+.sectionPremium .slide{
+    width: 100%;
+    max-width: 880px;
+    height: 100%;
+    min-height: 300px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.sectionPremium .slideArea{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    align-items: center;
+    color: black;
+    justify-content: center;
+    text-align: center;
+    padding:30px;
+}
+.sectionPremium .sliders-pointers{
+    margin-top: 60px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectionPremium .pointer{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.sectionPremium .pointer.active{
+    background-color: #b28756;
+}
 
+.sectionPremium .sectionPremiumLeft img{
+    width: 320px;
+    transition: all 0.5s;
+}
+.sectionPremium .sectionPremiumLeft img:hover{
+    transform: scale(1.1);
+}
+.sectionPremium .sectionPremiumRight{
+    flex: 1;
+    text-align: left;
+    margin-left: 80px;
+}
+.sectionPremium .sectionPremiumItem{
+    display: flex;
+}
+.sectionPremium .sectionPremiumItem:not(:last-child){
+    margin-bottom: 40px;
+}
+.sectionPremium .sectionPremiumItemLeft img{
+    width: 30px;
+}
+.sectionPremium .sectionPremiumItemRight{
+    margin-left: 20px;
+}
+
+.sectionPremium .sectionPremiumItemRight h4{
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.sectionPremium .sectionPremiumItemRight p{
+    color: #555;
+}
+.sectionPremium .sectionPremiumItemRight p::before{
+    content: "- ";
+}
+.sectionPremium .botaoAssinar{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sectionPremium .botaoAssinar .button{
+    transition: 0.5s all;
+}
+.sectionPremium .botaoAssinar .button:hover{
+    transform: scale(1.1);
+}
+.sectionDatas{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sectionDatas .sectionData{
+    width: 200px;
+    margin: 40px;
+    text-align: center;
+}
+.sectionDatas .sectionData h1{
+    color: #b28756;
+    font-size: 50px;
+    position: relative;
+    margin-bottom: 15px;
+}
+.sectionDatas .sectionData h1::after{
+    content: "_";
+    color: #555;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.sectionDatas .sectionData h2{
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.sectionDatas .sectionData p{
+    color: #ccc;
+    font-size: 13px;
+}
