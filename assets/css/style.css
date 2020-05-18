@@ -779,3 +779,63 @@ loader{
     color: #ccc;
     font-size: 13px;
 }
+.sectionSocialContact{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    justify-content: center;
+    padding: 20px;
+}
+.sectionSocialContact .legend{
+    display: flex;
+    align-items: center;
+}
+.sectionSocialContact .legend h3{
+    color: #777;
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 13px;
+    text-transform: uppercase;
+}
+.sectionSocialContact .socialItems{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+.sectionSocialContact .socialItems .socialItem{
+    display: flex;
+    align-items: center;
+}
+.sectionSocialContact .socialItems .socialItem .socialItemLogo{
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 13px;
+}
+.socialItemLogo.facebook{
+    background-color: #3b5998;
+}
+.socialItemLogo.twitter{
+    background-color: #1da1f2;
+}
+.socialItemLogo.googleplus{
+    background-color: #ea4335;
+}
+.socialItemLogo.linkedin{
+    background-color: #0e76a8;
+}
+.socialItemLogo.pinterest{
+    background-color: #903d3d;
+}
+.sectionSocialContact .socialItems .socialItem .socialItemLogo img{
+}
+.sectionSocialContact .socialItems .socialItem .socialItemNumber{
+    font-size: 10px;
+    color: #777;
+    margin: 0 20px 0 5px;
+    font-weight: 600;
+}
