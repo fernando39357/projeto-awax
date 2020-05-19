@@ -6,3 +6,7 @@ document.addEventListener("readystatechange", function () {
         loader.classList.add("mainLoading");
     }
 });
+function submitForm() {
+
+    alert("Enviado!");
+}

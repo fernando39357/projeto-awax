@@ -839,3 +839,70 @@ loader{
     margin: 0 20px 0 5px;
     font-weight: 600;
 }
+.sectionContactForm{
+    display: flex;
+    width: 100%;
+    max-width: 500px;
+    flex-direction: column;
+    margin: auto;
+}
+.sectionContactForm a{
+    display: block;
+}
+.sectionContactForm .inputGroupLine{
+    display: flex;
+}
+.sectionContactForm .inputGroupLine input{
+    width: 100%;
+    
+}
+.sectionContactForm .inputGroupLine input:last-child{
+    margin-left: 20px;
+}
+.sectionContactForm .inputGroup input{
+    width: 100%;
+}
+.sectionContactForm textarea,
+.sectionContactForm input
+{
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    outline: 0;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 10px;
+    transition: 0.5s all;
+}
+.sectionContactForm textarea::placeholder,
+.sectionContactForm input::placeholder{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #ccc;
+}
+.sectionContactForm textarea:focus,
+.sectionContactForm input:focus{
+    border-bottom: 1px solid #b28756;
+}
+.sectionContactForm input{
+    height: 30px;
+}
+.sectionContactForm textarea{
+    resize: none;
+    width: 100%;
+    max-width: 500px;
+
+}
+.sectionContactForm .submit{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.sectionContactForm .submit button{
+    width: 200px;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+}
