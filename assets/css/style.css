@@ -1276,6 +1276,7 @@ loader{
     .sectionPremium .sectionPremiumLeft img{
         width: 100%;
         max-width: 200px;
+        height: auto;
     }
     .sectionPremium .sectionPremiumRight
     {
