@@ -7,6 +7,10 @@ document.addEventListener("readystatechange", function () {
     }
 });
 function submitForm() {
-
     alert("Enviado!");
 }
+const openMenu = document.querySelectorAll(".menuOpener")[0]
+const menu = document.querySelectorAll("nav")[0]
+openMenu.addEventListener("click", () => {
+    menu.classList.toggle("menuOpen")
+})

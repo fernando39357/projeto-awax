@@ -108,6 +108,9 @@ loader{
 .menuOpener{
     display: none;
 }
+.menuOpen {
+    opacity: 1;
+}
 .menu {
     flex: 1;
     display: flex;
@@ -1026,7 +1029,7 @@ loader{
         margin-left: 30px;
     }
     .menuOpener{
-        width: 40px;
+        width: 30px;
         margin-right: 30px;
         display: block;
     }
@@ -1039,6 +1042,7 @@ loader{
         top: 100px;
         right: 0;
         min-height: calc(100vh - 100px);
+        transition: 0.5s all ease-in-out;
     }
     .menu ul{
         flex-direction: column;
@@ -1141,12 +1145,12 @@ loader{
         margin-left: 30px;
     }
     .menuOpener{
-        width: 40px;
+        width: 30px;
         margin-right: 30px;
         display: block;
     }
     nav {
-        display: none;
+        opacity: 0;
         position: absolute;
         z-index: 99;
         background: rgba(0,0,0,1);
@@ -1154,6 +1158,7 @@ loader{
         top: 100px;
         right: 0;
         min-height: calc(100vh - 100px);
+        transition: 0.5s all ease-in-out;
     }
     .menu ul{
         flex-direction: column;
