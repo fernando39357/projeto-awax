@@ -806,6 +806,8 @@ loader{
 .sectionSocialContact .socialItems .socialItem{
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .sectionSocialContact .socialItems .socialItem .socialItemLogo{
     width: 25px;
@@ -836,7 +838,7 @@ loader{
 .sectionSocialContact .socialItems .socialItem .socialItemNumber{
     font-size: 10px;
     color: #777;
-    margin: 0 20px 0 5px;
+    margin: 0 20px 0 10px;
     font-weight: 600;
 }
 .sectionContactForm{
@@ -905,4 +907,111 @@ loader{
     text-align: center;
     border: 0;
     cursor: pointer;
+}
+.sectionMap{
+    background-image: url("../images/mapa.png");
+    background-size: cover;
+    background-position: right;
+    padding: 30px 0;
+}
+.sectionMapArea{
+    width: 100vw;
+    max-width: 1140px;
+    margin: auto;
+}
+.sectionMapAreaBody{
+    background-color: #FFF;
+    width: 400px;
+    padding: 30px;
+}
+.sectionMapItem{
+    display: flex;
+    align-items: center;
+    color: #888;
+    margin-bottom: 15px;
+}
+.sectionMapItemIcon{
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: #ccc;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+.sectionMapItemIcon img{
+    width: 15px;
+}
+.footerArea{
+    background-color: black;
+}
+.footerBody{
+    display: flex;
+    width: 100%;
+    max-width: 1140px;
+    margin: auto;
+    color: #999;
+}
+.footerSocial,
+.footerAbout
+{
+    flex: 1;
+    
+}
+.footerSocial{
+    display: flex;
+    padding-top: 40px;
+}
+.footerSocial a{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    
+}
+.footerSocial a:hover{
+    background-color: #b28756;
+}
+.footerAbout{
+    text-align: justify;
+    padding-top: 40px;
+}
+.footerSubscribe{
+    background-color: #333;
+    border-radius: 3px;
+    margin: 40px 0 40px 40px;
+    padding: 20px;
+    text-align: center;
+}
+.footerSubscribe input{ 
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #888;
+    color: #888;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+.footerSubscribe input::placeholder{ 
+    text-align: center;
+}
+.footerSubscribe button{ 
+    border: 0;
+    cursor: pointer;
+}
+.copyright{
+    width: 100%;
+    max-width: 1140px;
+    margin: auto;
+    padding-bottom: 20px;
+    color: #999;
 }
